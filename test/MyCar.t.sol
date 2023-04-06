@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.13;
 
-import "forge-std/Test.sol";
+import "ds-test/test.sol";
 import "../src/MyCar.sol";
 
-contract MyCarTest is Test {
+contract MyCarTest is DSTest {
     MyCar public myCar;
 
     function setUp() public {
